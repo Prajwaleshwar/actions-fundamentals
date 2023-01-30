@@ -16,4 +16,4 @@ on:
             - uses: actions/checkout@v3.3.0
             - name: list files in the repo
             - run:
-              tree -a
+               tree
