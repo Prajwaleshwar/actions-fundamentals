@@ -11,9 +11,9 @@ on:
     jobs:
       Build:
         runs-on: ubuntu-latest
-          steps:
+        steps:
             - run: echo "The job was triggered event"
             - uses: actions/checkout@v3.3.0
             - name: list files in the repo
-           - run:
+            - run:
               tree -a
