@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run:
-         echo "The job was triggered by event: ${{ github.event_name }}"
+         echo "The job was triggered event: ${{ github.event_name }}"
       - uses: actions/checkout@v3.3.0
       - name: list files in the repo
       - run:
