@@ -17,8 +17,6 @@ on:
      description: 'Envirorment to deploy to'
      type: environment
      required: true
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
      Test:
