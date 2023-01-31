@@ -17,7 +17,7 @@ on:
      description: 'Envirorment to deploy to'
      type: environment
      required: true
-jobs:
+ jobs:
   build:
      Test:
     runs-on: ubuntu-latest
